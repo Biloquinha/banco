@@ -1,1 +1,5 @@
-# banco
+/*Alterando registro em uma tabela*/
+
+update `bd_caso_estudo_vendas`.`tb_cli`
+set cli_cpf = '0202020220'
+where cli_cod = 1;
